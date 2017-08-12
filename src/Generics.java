@@ -11,9 +11,11 @@ import java.util.Map;
 public class Generics {
 
     public static void main(String[] args) {
+        betterForCasting();
 
     }
-    public void betterForCasting() {
+
+    public static void betterForCasting() {
         List<String> list = new ArrayList<>();
         Map<String, List<String>> map = new HashMap<>();
 
