@@ -22,6 +22,8 @@ public class Generics {
 
         String s = list.get(0);
         String s2 = list.get(1);
+
+        System.out.println(s + s2);
     }
 
     @Test
@@ -33,6 +35,9 @@ public class Generics {
 
         Box box2 = new Box();
         box2.setObj("Another String");
+
+        System.out.println(box.getObj());
+        System.out.println(box2.getObj());
     }
 
 
